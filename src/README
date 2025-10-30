@@ -1,0 +1,24 @@
+# 🍳 Taylor's Recipe Helper
+
+A simple React + Tailwind web app that helps busy professionals find recipes based on available ingredients using **TheMealDB API**.
+
+### Features
+- Search by ingredient
+- View recipe cards
+- Click to see ingredients & instructions
+- Responsive clean design
+
+### Tech Used
+- React (Vite)
+- Tailwind CSS
+- Fetch API
+- TheMealDB (no authentication needed)
+
+### How to Run
+1. Clone or open in CodeSandbox
+2. `npm install`
+3. `npm run dev`
+
+### API Reference
+- Search meals by ingredient: https://www.themealdb.com/api/json/v1/1/filter.php?i={ingredient}
+- Get meal details: https://www.themealdb.com/api/json/v1/1/lookup.php?i={mealId}
